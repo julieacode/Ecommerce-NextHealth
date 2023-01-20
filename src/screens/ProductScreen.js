@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Row, Col, Image, ListGroup, Card Button } from 'react-bootstrap'
+import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap'
 import Rating from '../components/Rating'
 import products from '../products'
 
@@ -32,7 +32,7 @@ const ProductScreen = ({ match }) => {
   </ListGroup.Item>
 </ListGroup>
     </Col>
-    <Col md{3}>
+    <Col md={3}>
     <Card>
     <ListGroup variant='flush'>
       <ListGroup.Item>
